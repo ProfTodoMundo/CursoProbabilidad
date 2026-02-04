@@ -5,5 +5,6 @@
 \contentsline {subsection}{\numberline {1.3}Temas y subtemas / Objetivos espec\'ificos}{3}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Indicadores para la certificaci\'on}{5}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Evaluaci\'on del Curso}{6}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Repositorio del curso}{6}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Fundamentos}{7}{section.2}%
+\contentsline {subsection}{\numberline {1.6}Cient\'ificos prominentes}{6}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Repositorio del curso}{7}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Fundamentos}{8}{section.2}%
