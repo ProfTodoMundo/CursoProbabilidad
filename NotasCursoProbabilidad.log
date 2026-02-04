@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 FEB 2026 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 FEB 2026 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -646,7 +646,10 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count370
 \l__pdf_internal_box=\box107
 )
-(./NotasCursoProbabilidad.aux)
+(./NotasCursoProbabilidad.aux
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+)
 \openout1 = `NotasCursoProbabilidad.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
@@ -743,7 +746,19 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./NotasCursoProbabilidad.toc)
+(./NotasCursoProbabilidad.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `NotasCursoProbabilidad.toc'.
 
@@ -794,17 +809,6 @@ LaTeX Info: Redefining \% on input line 162.
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 [4]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 214
-.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 214
-.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 LaTeX Info: Redefining \. on input line 215.
 LaTeX Info: Redefining \% on input line 215.
@@ -812,7 +816,7 @@ LaTeX Info: Redefining \. on input line 215.
 LaTeX Info: Redefining \% on input line 215.
 [5{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }]
-<qr_NotasProbabilidad_GitHub.png, id=59, 123.46124pt x 123.46124pt>
+<qr_NotasProbabilidad_GitHub.png, id=108, 123.46124pt x 123.46124pt>
 File: qr_NotasProbabilidad_GitHub.png Graphic file (type png)
 <use qr_NotasProbabilidad_GitHub.png>
 Package pdftex.def Info: qr_NotasProbabilidad_GitHub.png  used on input line 28
@@ -837,434 +841,27 @@ LaTeX Info: Redefining \. on input line 160.
 LaTeX Info: Redefining \% on input line 160.
 [7 <./qr_NotasProbabilidad_GitHub.png>] (./Cap1_IntrodProb.tex
 
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
 [8]
 
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
-[9
-pdfTeX warning (ext4): destination with the same identifier (name{equation.5}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.142 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.142 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.7}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.142 
-      ]
-
-./Cap1_IntrodProb.tex:196: LaTeX Error: \begin{document} ended by \end{Ejem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 \end{Ejem}
-                
-? 
-./Cap1_IntrodProb.tex:196: Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.196 \end{Ejem}
-                
-? 
-
-
-LaTeX Info: Redefining \. on input line 239.
-LaTeX Info: Redefining \% on input line 239.
-[10]
-./Cap1_IntrodProb.tex:278: Undefined control sequence.
-l.278 A_\alpha\cap A_{\alpha^{'}}=\varnothing
-                                              \quad \text{para } \alpha\neq\...
-
-? 
-
-
-LaTeX Info: Redefining \. on input line 322.
-LaTeX Info: Redefining \% on input line 322.
-[11]
-
-LaTeX Info: Redefining \. on input line 398.
-LaTeX Info: Redefining \% on input line 398.
-[12]
-
-LaTeX Info: Redefining \. on input line 491.
-LaTeX Info: Redefining \% on input line 491.
-[13]
-
-LaTeX Info: Redefining \. on input line 576.
-LaTeX Info: Redefining \% on input line 576.
-[14]
-
-LaTeX Info: Redefining \. on input line 656.
-LaTeX Info: Redefining \% on input line 656.
-[15]
-
-LaTeX Info: Redefining \. on input line 746.
-LaTeX Info: Redefining \% on input line 746.
-[16]
-
-LaTeX Info: Redefining \. on input line 842.
-LaTeX Info: Redefining \% on input line 842.
-[17]
-
-LaTeX Info: Redefining \. on input line 938.
-LaTeX Info: Redefining \% on input line 938.
-[18]
-
-LaTeX Info: Redefining \. on input line 1037.
-LaTeX Info: Redefining \% on input line 1037.
-[19]
-
-LaTeX Info: Redefining \. on input line 1139.
-LaTeX Info: Redefining \% on input line 1139.
-[20]
-
-LaTeX Info: Redefining \. on input line 1221.
-LaTeX Info: Redefining \% on input line 1221.
-[21]
-
-LaTeX Info: Redefining \. on input line 1327.
-LaTeX Info: Redefining \% on input line 1327.
-[22]
-
-LaTeX Info: Redefining \. on input line 1407.
-LaTeX Info: Redefining \% on input line 1407.
-[23]
-
-LaTeX Info: Redefining \. on input line 1490.
-LaTeX Info: Redefining \% on input line 1490.
-[24]
-
-LaTeX Info: Redefining \. on input line 1576.
-LaTeX Info: Redefining \% on input line 1576.
-[25]
-
-LaTeX Info: Redefining \. on input line 1656.
-LaTeX Info: Redefining \% on input line 1656.
-[26]
-Overfull \hbox (18.32495pt too wide) in paragraph at lines 1692--1694
-[]\OT1/cmr/bx/n/12 Def. \OT1/cmr/m/n/12 La fun-ci^^Son de den-si-dad de pro-ba-
-bi-li-dad con-jun-ta de $\OML/cmm/m/it/12 X[]; X[]$ \OT1/cmr/m/n/12 se de-no-ta
- por $\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/12
- )$. 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1751.
-LaTeX Info: Redefining \% on input line 1751.
-[27]
-Overfull \hbox (39.77863pt too wide) in paragraph at lines 1783--1786
-[]\OT1/cmr/bx/n/12 Def. \OT1/cmr/m/n/12 La va-ria-ble alea-to-ria $(\OML/cmm/m/
-it/12 X[]; [] ; X[]\OT1/cmr/m/n/12 )$ es ab-so-lu-ta-men-te con-ti-nua si exis-
-te $\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; [] ; x[]\OT1/cmr
-/m/n/12 )$
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1832.
-LaTeX Info: Redefining \% on input line 1832.
-[28]
-
-LaTeX Info: Redefining \. on input line 1915.
-LaTeX Info: Redefining \% on input line 1915.
-[29]
-
-LaTeX Info: Redefining \. on input line 1987.
-LaTeX Info: Redefining \% on input line 1987.
-[30]
-
-LaTeX Info: Redefining \. on input line 2069.
-LaTeX Info: Redefining \% on input line 2069.
-[31]
-
-LaTeX Info: Redefining \. on input line 2143.
-LaTeX Info: Redefining \% on input line 2143.
-[32]
-
-LaTeX Info: Redefining \. on input line 2222.
-LaTeX Info: Redefining \% on input line 2222.
-[33]
-
-LaTeX Info: Redefining \. on input line 2303.
-LaTeX Info: Redefining \% on input line 2303.
-[34]
-
-LaTeX Info: Redefining \. on input line 2388.
-LaTeX Info: Redefining \% on input line 2388.
-[35]
-
-LaTeX Info: Redefining \. on input line 2466.
-LaTeX Info: Redefining \% on input line 2466.
-[36]
-
-LaTeX Info: Redefining \. on input line 2558.
-LaTeX Info: Redefining \% on input line 2558.
-[37]
-
-LaTeX Info: Redefining \. on input line 2668.
-LaTeX Info: Redefining \% on input line 2668.
-[38]
-
-LaTeX Info: Redefining \. on input line 2771.
-LaTeX Info: Redefining \% on input line 2771.
-[39]
-
-LaTeX Info: Redefining \. on input line 2857.
-LaTeX Info: Redefining \% on input line 2857.
-[40]
-
-LaTeX Info: Redefining \. on input line 2935.
-LaTeX Info: Redefining \% on input line 2935.
-[41]
-
-LaTeX Info: Redefining \. on input line 3034.
-LaTeX Info: Redefining \% on input line 3034.
-[42]
-
-LaTeX Info: Redefining \. on input line 3117.
-LaTeX Info: Redefining \% on input line 3117.
-[43]
-
-LaTeX Info: Redefining \. on input line 3208.
-LaTeX Info: Redefining \% on input line 3208.
-[44]
-./Cap1_IntrodProb.tex:3252: Missing $ inserted.
-<inserted text> 
-                $
-l.3252 X_
-         1, X_2 \ \text{V.A.C.C. con densidad}
-? 
-
-./Cap1_IntrodProb.tex:3253: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3253 \begin{equation}
-                       
-? 
-./Cap1_IntrodProb.tex:3255: You can't use `\eqno' in math mode.
-\veqno ->\@kernel@eqno 
-                       \aftergroup \ignorespaces 
-l.3255 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3255: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.3255 \end{equation}
-                     
-? 
-
-./Cap1_IntrodProb.tex:3255: LaTeX Error: \begin{document} ended by \end{equatio
-n}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3255 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3255: Missing $ inserted.
-<inserted text> 
-                $
-l.3255 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3255: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.3255 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3257: Missing $ inserted.
-<inserted text> 
-                $
-l.3257 \textbf{Sup.} \quad Y_
-                             1 = g_1(x_1,x_2), \quad Y_2 = g_2(x_1,x_2)
-? 
-./Cap1_IntrodProb.tex:3259: Missing $ inserted.
-<inserted text> 
-                $
-l.3259 
-       
-? 
-./Cap1_IntrodProb.tex:3273: Missing $ inserted.
-<inserted text> 
-                $
-l.3273 B) \quad \text{las funciones } y_
-                                        1,y_2 \text{ tienen derivadas}
-? 
-
-./Cap1_IntrodProb.tex:3274: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3274 \begin{equation}
-                       
-? 
-./Cap1_IntrodProb.tex:3276: You can't use `\eqno' in math mode.
-\veqno ->\@kernel@eqno 
-                       \aftergroup \ignorespaces 
-l.3276 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3276: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.3276 \end{equation}
-                     
-? 
-
-./Cap1_IntrodProb.tex:3276: LaTeX Error: \begin{document} ended by \end{equatio
-n}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3276 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3276: Missing $ inserted.
-<inserted text> 
-                $
-l.3276 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3276: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.3276 \end{equation}
-                     
-? 
-./Cap1_IntrodProb.tex:3288: Missing $ inserted.
-<inserted text> 
-                $
-l.3288 \textbf{Entonces} \quad Y_
-                                 1 \text{ y } Y_2 \ \text{son V.A.C.C.}
-? 
-./Cap1_IntrodProb.tex:3289: Missing $ inserted.
-<inserted text> 
-                $
-l.3289 
-       
-? 
-
-
-LaTeX Info: Redefining \. on input line 3312.
-LaTeX Info: Redefining \% on input line 3312.
-[45]
-
-LaTeX Info: Redefining \. on input line 3430.
-LaTeX Info: Redefining \% on input line 3430.
-[46]
-
-LaTeX Info: Redefining \. on input line 3541.
-LaTeX Info: Redefining \% on input line 3541.
-[47]
-
-LaTeX Info: Redefining \. on input line 3675.
-LaTeX Info: Redefining \% on input line 3675.
-[48]
-
-LaTeX Info: Redefining \. on input line 3785.
-LaTeX Info: Redefining \% on input line 3785.
-[49]
-
-LaTeX Info: Redefining \. on input line 3924.
-LaTeX Info: Redefining \% on input line 3924.
-[50]
-
-LaTeX Info: Redefining \. on input line 4020.
-LaTeX Info: Redefining \% on input line 4020.
-[51]
-
-LaTeX Info: Redefining \. on input line 4112.
-LaTeX Info: Redefining \% on input line 4112.
-[52]
-
-LaTeX Info: Redefining \. on input line 4233.
-LaTeX Info: Redefining \% on input line 4233.
-[53]
-
-LaTeX Info: Redefining \. on input line 4384.
-LaTeX Info: Redefining \% on input line 4384.
-[54]
-
-LaTeX Info: Redefining \. on input line 4472.
-LaTeX Info: Redefining \% on input line 4472.
-[55]
-./Cap1_IntrodProb.tex:4478: Missing $ inserted.
-<inserted text> 
-                $
-l.4478 
-       
-? 
-./Cap1_IntrodProb.tex:4478: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.4478 
-       
-? 
-./Cap1_IntrodProb.tex:4553: Missing $ inserted.
-<inserted text> 
-                $
-l.4553 
-       
-? 
-./Cap1_IntrodProb.tex:4553: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.4553 
-       
-? 
-
-
-LaTeX Info: Redefining \. on input line 4561.
-LaTeX Info: Redefining \% on input line 4561.
-[56]
-
-LaTeX Info: Redefining \. on input line 4650.
-LaTeX Info: Redefining \% on input line 4650.
-[57]
-
-LaTeX Info: Redefining \. on input line 4749.
-LaTeX Info: Redefining \% on input line 4749.
-[58])
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+[9]
+
+LaTeX Info: Redefining \. on input line 222.
+LaTeX Info: Redefining \% on input line 222.
+LaTeX Info: Redefining \. on input line 222.
+LaTeX Info: Redefining \% on input line 222.
+[10])
 
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
-[59]
-
-./NotasCursoProbabilidad.tex:175: LaTeX Error: \begin{equation} on input line 4
-549 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \end{document}
-                    
-? 
-(./NotasCursoProbabilidad.aux
+LaTeX Info: Redefining \. on input line 162.
+LaTeX Info: Redefining \% on input line 162.
+[11] (./NotasCursoProbabilidad.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -1272,52 +869,38 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+Package rerunfilecheck Info: File `NotasCursoProbabilidad.out' has not changed.
 
-
-Package rerunfilecheck Warning: File `NotasCursoProbabilidad.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `NotasCursoProbabilidad.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  7923FEE4A2C3C687DCCE3F68DB5CF204;1493.
- )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 4549 (\begingroup)
-### semi simple group (level 1) entered at line 4474 (\begingroup)
-### bottom level 
+(rerunfilecheck)             Checksum: FF7BA9A5CAE55C1B532ACEB278FADD19;1732.
+ ) 
 Here is how much of TeX's memory you used:
- 18876 strings out of 473190
- 295172 string characters out of 5715801
- 727733 words of memory out of 5000000
- 41104 multiletter control sequences out of 15000+600000
- 569648 words of font info for 74 fonts, out of 8000000 for 9000
+ 18131 strings out of 473190
+ 286333 string characters out of 5715801
+ 727738 words of memory out of 5000000
+ 41081 multiletter control sequences out of 15000+600000
+ 569027 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,1197b,916s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
-cmextra/cmex8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on NotasCursoProbabilidad.pdf (62 pages, 392256 bytes).
+ 75i,13n,79p,1154b,916s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
+b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on NotasCursoProbabilidad.pdf (14 pages, 206102 bytes).
 PDF statistics:
- 1250 PDF objects out of 1440 (max. 8388607)
- 1134 compressed objects within 12 object streams
- 778 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
