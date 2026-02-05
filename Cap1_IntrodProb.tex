@@ -18,6 +18,16 @@ Es una colecci\'on de elementos con una o varias propiedades en com\'un, lo deno
 Es el conjunto que no tiene elementos, se denota por $\emptyset$.
 \end{Def}
 
+\begin{Def} \textbf{Conjunto potencia:}
+El conjunto potencia de $\Omega$ , denotado por $2^{\Omega}$ es aquel conjunto conformado por todos los subconjuntos posibles de $\Omega$.
+\end{Def}
+
+\begin{Ejem}
+El conjunto potencia de $\Omega=\left\{a,b,c\right\}$ es 
+\begin{eqnarray*}
+2^{\Omega}=\left\{\emptyset, \left\{a\right\},\left\{b\right\},\left\{c\right\},\left\{a,b\right\},\left\{a,c\right\},\left\{b,c\right\},\Omega\right\}.
+\end{eqnarray*}
+\end{Ejem}
 
 \begin{Def} \textbf{Subconjunto}
 Sean $A$ y $B$ dos conjuntos no vac\'ios, se dice que $A$ es un subconjunto de $B$ si para cualquier elemento de $A$, este pertenece a $B$, es decir, si $x\in A$ entonces $x\in B$, se denota por $A\subset B$.
@@ -40,6 +50,17 @@ Sean $A$ y $B$ dos conjuntos, la uni\'on de $A$ y $B$ se define como $A\cup B=\l
 \begin{Def} \textbf{Intersecci\'on}
 Sean $A$ y $B$ dos conjuntos, la uni\'on de $A$ y $B$ se define como $A\cap B=\left\{x\in\Omega | x\in A\wedge  x\in B\right\}$
 \end{Def}
+
+
+\begin{Def}
+El producto cartesianos de dos conjuntos $A$ Y $B$, denotado por $A\times B$, se define como. la colecci\'on de de todas las parejas ordenadas $\left(a,b\right)$ donde $a\in A$ y $b\in B$, es decir:
+\begin{eqnarray*}
+A\times B = \left\{\left(a,b,\right)|a\in A, \textrm{ y }b\in B\right\}
+\end{eqnarray*}
+
+\end{Def}
+
+
 
 \begin{Def} \textbf{Diferencia}
 Sean $A$ y $B$ dos conjuntos, la diferencia de $A$ y $B$ se define como: $A-B=\left\{x\in\Omega | x\in A \wedge x\notin B\right\}$.
@@ -184,6 +205,7 @@ A\cap B = A, \text{ y } A \cup B = B.
 
 
 
+
 %===========================================
 \subsection{Fundamentos}
 %===========================================
@@ -238,18 +260,82 @@ $A_{n+1} \subset A_n$ para todo $n \in \mathbb{N}$, entonces
 
 
 \begin{Def}\textbf{\'Algebra}
-
+Sea $\Omega$ un conjunto, y $\mathcal{A}$ una colecci\'on de conjuntos en $\Omega$. $\mathcal{A}$ es una \'algebra de conjuntos si se cumplen las siguientes propiedades:
+\begin{itemize}
+\item[i) ] $\Omega\in \mathcal{A}$,
+\item[ii)] Si $A\in\mathcal{A}$, entonces $A^{c}\in\mathcal{A}$,
+\item[iii) ] Si $A_{1}\in\mathcal{A}$ y $A_{2}\in\mathcal{A}$, entonces $A_{1}\cup A_{2}\in\mathcal{A}$.
+\end{itemize}
 \end{Def}
 
+\begin{Teo}
+$\emptyset\in\mathcal{A}$.
+\end{Teo}
+
+\begin{Teo}
+Si $A_{1}$ y $A_{2}\in\mathcal{A}$, entonces $A_{1}\cap A_{2}\in\mathcal{A}$.
+\end{Teo}
+
+\begin{Teo}
+Si $A_{1},A_{2},\dots,A_{n}\in\mathcal{A}$, entonces tanto $\bigcup_{i=1}^{n}A_{i}$ como $\bigcap_{i=1}^{n}A_{i}\in\mathcal{A}$.
+\end{Teo}
 
 
 \begin{Def}\textbf{$\sigma$-\'Algebra}
+Sea $\mathcal{A}$ colecci\'on de conjuntos definidos sobre $\Omega$, $\mathcal{A}$ es una $\sigma$-\'algebra si se cumplen las condiciones siguientes:
+\begin{itemize}
+\item[i) ] $\Omega\in \mathcal{A}$,
+\item[ii)] Si $A\in\mathcal{A}$, entonces $A^{c}\in\mathcal{A}$,
+\item[iii) ] Si $\left\{A_{n}\right\}_{n\geq1}\in\mathcal{A}$, entonces $\bigcup_{n\geq1} A_{n}\in\mathcal{A}$.
+\end{itemize}
+
+\end{Def}
+
+\begin{Def}
+La pareja $\left(\Omega,\mathcal{A}\right)$ se le denomina espacio medible, y a los elementos de $\mathcal{A}$ se les llama eventos o conjuntos medibles.
+\end{Def}
+
+\begin{Ejem}
+Sea $\Omega$ conjunto cualquiera no vac\'io, entonces las siguientes colecciones son $\sigma$-\'algebra:
+
+\begin{itemize}
+\item[i) ] $\mathcal{F}_{1}=\left\{\emptyset,\Omega\right\}$.
+\item[ii) ] $\mathcal{F}_{2}=\left\{\emptyset,A,A^{c},\Omega\right\}$.
+\item[iii) ]$\mathcal{F}_{3}=2^{\Omega}$.
+\item[iv) ] Sean $A$ y $B$ subconjuntos de $\Omega$ tales que $A\subset B$, entonces 
+\begin{eqnarray*}
+\mathcal{F}=\left\{\emptyset,A,B,A^{c},B^{c},B-A,\left(A-B\right)^{c},\Omega\right\}
+\end{eqnarray*}
+ es una $\sigma$-\'algebra.
+\end{itemize}
+\end{Ejem}
+
+
+\begin{Prop} Sea $\mathcal{F}$ una $\sigma$-\'algebra de subconjuntos de $\Omega$, entonces
+\begin{itemize}
+\item[i) ] $\emptyset\in\mathcal{F}$
+
+\item[ii) ] Si $A_{1},A_{2},\dots\in\mathcal{F}$, entonces $\bigcap_{n=1}^{\infty}A_{n}\in\mathcal{F}$
+
+\item[iii) ] Si $A$ y $B\in\mathcal{F}$, entonces $A-B\in\mathcal{F}$, y adem\'as $A\triangle B\in\mathcal{F}$.
+\end{itemize}
+
+\begin{Prop}
+La intersecci\'on de dos $\sigma$-\'algebras es una $\sigma$-\'algebra.
+\end{Prop}
+
+\begin{Prop}
+La intersecci\'on finita, infinita numerable o arbitraria de $\sigma$-\'algebras es nuevamente una $\sigma$-\'algebra.
+\end{Prop}
+
+\begin{Def}[$\sigma$-\'algebra generada] Sea $\mathcal{C}$ una colecci\'on no vac\'ia de subconjuntos de $\Omega$. La $\sigma$-\'algebra generada por $\mathcal{C}$, denotada por $\sigma\left(\mathcal{C}\right)$ es la colecci\'on
+\begin{eqnarray*}
+\sigma\left(\mathcal{C}\right)=\bigcap\left\{\mathcal{F}:\mathcal{F} \textrm{ es }\sigma-\textrm{\'algebra y }\mathcal{C}\subseteq\mathcal{F} \right\}
+\end{eqnarray*}
 
 \end{Def}
 
 
 
-\begin{Propty}\textbf{Importantes}
 
-
-\end{Propty}
+\end{Prop}

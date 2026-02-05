@@ -9,4 +9,4 @@
 \contentsline {subsection}{\numberline {1.7}Repositorio del curso}{7}{subsection.1.7}%
 \contentsline {section}{\numberline {2}Introducci\'on}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Preliminares}{8}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Fundamentos}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Fundamentos}{11}{subsection.2.2}%
