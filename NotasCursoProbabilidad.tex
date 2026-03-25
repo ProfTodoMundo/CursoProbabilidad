@@ -55,26 +55,25 @@
 }
 
 %===========================================
-\newtheorem{Criterio}{Criterio}
-\newtheorem{Sup}{Supuesto}
-\newtheorem{Note}{Nota}
-\newtheorem{Ejem}{Ejemplo}
-\newtheorem{Prop}{Proposici\'on}
-\newtheorem{Def}{Definici\'on}
-\newtheorem{Teo}{Teorema}
-\newtheorem{Algthm}{Algoritmo}
-\newtheorem{Sol}{Soluci\'on}
-\newtheorem{Cor}{Corolario}
-\newtheorem{Ejer}{Ejercicio}
+\newtheorem{Criterio}{Criterio}[section]
+\newtheorem{Sup}{Supuesto}[section]
+\newtheorem{Note}{Nota}[section]
+\newtheorem{Ejer}{Ejercicio}[section]
+\newtheorem{Ejem}{Ejemplo}[section]
+\newtheorem{Prop}{Proposici\'on}[section]
+\newtheorem{Def}{Definici\'on}[section]
+\newtheorem{Teo}{Teorema}[section]
+\newtheorem{Algthm}{Algoritmo}[section]
+\newtheorem{Sol}{Soluci\'on}[section]
+\newtheorem{Cor}{Corolario}[section]
 \newtheorem{Quest}{Pregunta}
-\counterwithout{Ejer}{section}
-\newtheorem{Obs}{Observaci\'on}
+\newtheorem{Obs}{Observaci\'on}[section]
 \newcommand{\rea}{\mathbb{R}}
 \newcommand{\Prob}{\mathbb{P}}
 \newcommand{\Esp}{\mathbb{E}}
 \newcommand{\Var}{\mathbb{V}}
-\newtheorem{Propty}{Propiedades}
-\newtheorem{lem}{Lema}
+\newtheorem{Propty}{Propiedades}[section]
+\newtheorem{lem}{Lema}[section]
 %===========================================
 \pagestyle{fancy}
 \fancyhf{} % limpia encabezados y pies previos
@@ -162,6 +161,7 @@
 \newpage
 \input{Cap1_IntrodProb}
 \newpage
+\input{Cap2_VariablesAleatorias}
 
 %\input{NotasProbabilidad}
 %\newpage

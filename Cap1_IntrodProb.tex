@@ -1,7 +1,7 @@
 % !TEX root = NotasCursoProbabilidad.tex
 
 %===========================================
-\section{Introducci\'on}
+\section{Introducci\'on a la Probabilidad}
 %===========================================
 
 
@@ -569,7 +569,150 @@ P(A\cup B\cup C\cup D) &= P(A)+P(B)+P(C)+P(D) \\
 \end{itemize}
 \end{Ejer}
 
+
+%<>==<><>==<><>==<><>==<><>==<><>==<><>==<>
+\subsection{Tarea-Examen}
+%<>==<><>==<><>==<><>==<><>==<><>==<><>==<>
 \newpage
+
+\begin{center}
+    {\Large \textbf{Primer Evaluaci\'on Parcial (Tarea-Examen)}} \\[0.3cm]
+    Nombre: \rule{10cm}{0.4pt} \\[0.3cm]
+    Matrícula: \rule{5cm}{0.4pt}
+\end{center}
+
+
+\textbf{Instrucciones:}
+
+\paragraph{
+Resolver 10 ejercicios,  la siguiente lista de ejercicios, la soluci\'on debe de ser clara e incluir todos los pasos que llevaron a encontrar la respuesta correcta.}
+\begin{center}
+\rule{15cm}{0.4pt} \\[0.2cm]
+\rule{15cm}{0.4pt} \\[0.2cm]
+\end{center}
+\textbf{Obligatorios indicados con un aster\'isco -- *}
+
+\begin{Quest} Verifica una de las dos siguientes identidades
+
+\begin{itemize}
+\item[(c)] $B \setminus A = B \cap A^{c}$
+
+\item[(d)] $A \cup B = A \cup (B \cap A^{c})$
+
+\end{itemize}
+\end{Quest}
+
+\begin{Quest}* Sea $S$ un espacio muestral. Muestre que la colecci\'on  $\mathcal{B}=\{\emptyset,S\}$ es  una sigma algebra.
+\end{Quest}
+
+\begin{Quest} Si $A$ and $B$ son mutuamente excluyentes, entonces \[P(A|A \cup B)=\frac{P(A)}{P(A)+P(B)}.\]
+\end{Quest}
+
+\begin{Quest} $P(A \cap B \cap C)=P(A|B \cap C)P(B|C)P(C).$
+\end{Quest}
+
+\begin{Quest}
+$P(A\cup B\cup C)=P(A)+P(A^c\cap B)+P(A^c\cap B^c\cap C).$
+
+\end{Quest}
+
+
+\begin{Quest}(Resolver el siguiente problema)
+
+When coded messages are sent, there are sometimes errors in transmission. In particular, Morse code uses ``dots'' and ``dashes,'' which are known to occur in the proportion $3:4$. This means that for any given symbol, $P(\text{dot sent}) = \frac{3}{7}$ and $P(\text{dash sent}) = \frac{4}{7}.$ Suppose there is interference on the transmission line, and with probability $\frac18$ a dot is mistakenly received as a dash, and vice versa. If we receive a dot, can we be sure that a dot was sent?
+
+\end{Quest}
+
+\begin{Quest}* For any three events $A$, $B$, and $C$ defined on a sample space $S$, verify the following properties: \textbf{DeMorgan's Laws:} $(A \cup B)^c = A^c \cap B^c$ and $(A \cap B)^c = A^c \cup B^c$
+\end{Quest}
+
+\begin{Quest}* If $A$ and $B$ are two independent events defined on a given probability space $(\Omega,\mathcal{A},P)$, then
+
+\begin{itemize}
+\begin{multicols}{2}
+\item[a) ] $A$ and $B^{c}$ are independent,
+
+\item[b) ] $A^{c}$ and $B$ are independent,
+
+\item[c) ] $A^{c}$ and $B^{c}$ are independent.
+\end{multicols}
+\end{itemize}
+
+\end{Quest}
+
+\begin{Quest}* Assume the probability space $(\Omega,\mathcal{A},P)$ is given and let $B\in\mathcal{A}$ satisfy $P(B)>0$.
+
+\begin{itemize}
+\item[a) ] $P(\emptyset|B)=0.$
+
+\item[c) ] If $A\in\mathcal{A}$ then $P(A^c|B)=1-P(A|B).$
+
+\item[e) ] $P(A_1\cup A_2|B)=P(A_1|B)+P(A_2|B)-P(A_1A_2|B).$
+
+\item[f) ] If $A_1\subset A_2$, then $P(A_1|B)\le P(A_2|B).$
+\end{itemize}
+\end{Quest}
+
+\begin{Quest} Properties of Indicator Functions: Let $\mathcal{A}$ be a collection of subsets of $\Omega$.
+
+\begin{itemize}
+\item[i) ] $I_{A^c}(\omega) = 1 - I_A(\omega)$.
+\item[ii) ]  $I_{A_1 \cap A_2}(\omega)= I_{A_1}(\omega) I_{A_2}(\omega)$
+\end{itemize}
+\end{Quest}
+
+
+\begin{Quest} Solve the following
+\begin{itemize}
+\item[a) ] Show that $P(A|B) + P(A'|B) = 1,$ provided $P(B) \neq 0$.
+
+\item[b) ] Show that $P(A \cap B \cap C \cap D)= P(A)\,P(B|A)\,P(C|A \cap B)\,P(D|A \cap B \cap C),$ provided $P(A \cap B \cap C) \neq 0$.
+\end{itemize}
+\end{Quest}
+
+\begin{Quest} Show that if set $B$ is contained in set $A$ (that is, $B$ is a subset of $A$), then
+$P(B)\le P(A).$
+\end{Quest}
+
+\begin{Quest}
+If $A$ and $B$ are mutually exclusive events, $P(A)=0.33$, and $P(B)=0.42$, find
+
+\begin{itemize}
+\begin{multicols}{3}
+\item[i) ] $P(A')$;
+\item[ii) ] $P(B')$;
+\item[iii) ] $P(A\cup B)$;
+\item[iv) ] $P(A\cap B)$;
+\item[v) ] $P(A\cap B')$;
+\item[vi) ] $P(A'\cap B')$.
+\end{multicols}
+\end{itemize}
+\end{Quest}
+
+\begin{Quest}
+Show that
+\begin{itemize}
+\begin{multicols}{2}
+\item[i) ] $P(A\cap B) \le P(A)+P(B)$;
+\item[ii) ] $P(A\cap B) \ge P(A)+P(B)-1$.
+\end{multicols}
+\end{itemize}
+\end{Quest}
+
+\begin{Quest}*
+\begin{itemize}
+\item[d) ] Show that
+\begin{eqnarray*}
+P(A\cup B\cup C) &=& P(A)+P(B)+P(C)-P(A\cap B)-P(A\cap C)-P(B\cap C)\\
+&+& P(A\cap B\cap C)
+\end{eqnarray*}
+
+\end{itemize}
+\end{Quest}
+
+
+\newpage
+
 
 %===========================================
 \subsection{Teor\'ia de conjuntos (b\'asico)}

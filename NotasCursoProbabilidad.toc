@@ -7,11 +7,51 @@
 \contentsline {subsection}{\numberline {1.5}Evaluaci\'on del Curso}{6}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Cient\'ificos prominentes}{6}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}Repositorio del curso}{7}{subsection.1.7}%
-\contentsline {section}{\numberline {2}Introducci\'on}{8}{section.2}%
+\contentsline {section}{\numberline {2}Introducci\'on a la Probabilidad}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Preliminares}{8}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Fundamentos}{11}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Tarea: Ejercicios para examen}{13}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Teor\'ia de conjuntos (b\'asico)}{17}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Combinatoria}{17}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Propiedades de los N\'umeros Combinatorios}{17}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Probabilidad Condicional}{37}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.4}Tarea-Examen}{16}{subsection.2.4}%
+\contentsline {paragraph}{ Resolver 10 ejercicios, la siguiente lista de ejercicios, la soluci\'on debe de ser clara e incluir todos los pasos que llevaron a encontrar la respuesta correcta.}{17}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Teor\'ia de conjuntos (b\'asico)}{19}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Combinatoria}{19}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Propiedades de los N\'umeros Combinatorios}{19}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Probabilidad Condicional}{39}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Preliminares a Variables Aleatorias}{49}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Variables Aleatorias}{51}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Funciones de Densidad y de Probabilidad Acumulada}{53}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Variables Aleatorias Discretas}{55}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Distribuci\'on Bernoulli}{55}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Distribuci\'on Binomial}{55}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Distribuci\'on Geom\'etrica}{55}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Distribuci\'on Poisson}{56}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Distribuci\'on Binomial Negativa}{56}{subsubsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.4}Variables Aleatorias Continuas}{56}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Distribuci\'on Uniforme}{56}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Distribuci\'on Exponencial}{56}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Distribuci\'on Normal}{56}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Distribuci\'on Gamma}{56}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Distribuci\'on $\chi ^{2}$}{57}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Distribuci\'on Beta}{57}{subsubsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.7}Distribuci\'on Hipergeom\'etrica}{57}{subsubsection.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.4.8}Distribuci\'on Weibull}{57}{subsubsection.3.4.8}%
+\contentsline {subsubsection}{\numberline {3.4.9}Distribuci\'on Log-normal}{57}{subsubsection.3.4.9}%
+\contentsline {subsubsection}{\numberline {3.4.10}Distribuci\'on $t$ de Student}{57}{subsubsection.3.4.10}%
+\contentsline {subsubsection}{\numberline {3.4.11}Distribuci\'on Cauchy}{58}{subsubsection.3.4.11}%
+\contentsline {subsection}{\numberline {3.5}Miscel\'anea de Ejercicios (Primera parte)}{58}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Distribución Uniforme}{60}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Distribución Bernoulli}{61}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Distribución Binomial}{63}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Distribución Poisson}{64}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Distribución Geométrica}{66}{subsubsection.3.5.5}%
+\contentsline {subsubsection}{\numberline {3.5.6}Distribución Uniforme (continua)}{67}{subsubsection.3.5.6}%
+\contentsline {subsubsection}{\numberline {3.5.7}Distribución Exponencial}{69}{subsubsection.3.5.7}%
+\contentsline {subsubsection}{\numberline {3.5.8}Distribución Normal}{71}{subsubsection.3.5.8}%
+\contentsline {subsubsection}{\numberline {3.5.9}Distribución Gamma}{74}{subsubsection.3.5.9}%
+\contentsline {subsubsection}{\numberline {3.5.10}Distribución Beta}{77}{subsubsection.3.5.10}%
+\contentsline {subsubsection}{\numberline {3.5.11}Distribución \textit {t}-Student}{78}{subsubsection.3.5.11}%
+\contentsline {subsubsection}{\numberline {3.5.12}Distribución Ji-cuadrada ($\chi ^2$)}{81}{subsubsection.3.5.12}%
+\contentsline {subsubsection}{\numberline {3.5.13}Distribución Cauchy}{83}{subsubsection.3.5.13}%
+\contentsline {subsection}{\numberline {3.6}Miscelanea de Problemas (Segunda parte)}{85}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Ejercicios Tarea-Examen}{150}{subsection.3.7}%
+\contentsline {paragraph}{ Resolver 16 ejercicios, la siguiente lista de ejercicios, la soluci\'on debe de ser clara e incluir todos los pasos que llevaron a encontrar la respuesta correcta.}{151}{subsection.3.7}%
