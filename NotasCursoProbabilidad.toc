@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.2}Fundamentos}{11}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Tarea: Ejercicios para examen}{13}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Tarea-Examen}{16}{subsection.2.4}%
-\contentsline {paragraph}{ Resolver 10 ejercicios, la siguiente lista de ejercicios, la soluci\'on debe de ser clara e incluir todos los pasos que llevaron a encontrar la respuesta correcta.}{17}{subsection.2.4}%
+\contentsline {paragraph}{ Resolver 10 ejercicios, la siguiente lista de ejercicios, la soluci\'on debe de ser clara e incluir todos los pasos que llevaron a encontrar la respuesta correcta. Fecha de entrega de manera virtual viernes 27, hora m\'axima de recepci\'on:11:30 a.m.}{17}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Teor\'ia de conjuntos (b\'asico)}{19}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Combinatoria}{19}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Propiedades de los N\'umeros Combinatorios}{19}{subsection.2.7}%
